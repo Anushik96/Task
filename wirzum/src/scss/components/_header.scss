@@ -1,0 +1,58 @@
+header {
+  padding: 32px;
+  display: flex;
+  align-items: center;
+
+  .main-logo {
+    width: 149px;
+    height: 32px;
+  }
+
+  .main_menu {
+    display: flex;
+    padding: 0 71px;
+    &-item a{
+      color: $textColor;
+      text-decoration: none;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      margin-right: 32px;
+    }
+  }
+
+  .right-side {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    .user-name {
+      color: $textColor;
+      margin-right: 32px;
+    }
+
+    .language-shweatcher {
+      p{
+        font-size: 16px;
+        line-height: 19px;
+        color:$textColor
+      }
+        .dropdown{
+          display: none;
+          &.show{
+            display: block;
+          }
+        }
+    }
+
+    .burger-icon {
+      margin-left: 60px;
+      span{
+        display: block;
+        width: 24px;
+        height: 2px;
+        margin: 10px 0;
+        background: #177755;
+      }
+    }
+  }
+}
